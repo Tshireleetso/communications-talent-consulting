@@ -1,0 +1,3 @@
+<script setup lang="ts">import {usePageMeta} from '@/composables/usePageMeta';usePageMeta({title:'Page Not Found',description:'The requested page could not be found.'})</script>
+<template><main class="not-found"><div class="site-container"><span class="eyebrow">404</span><h1 class="page-title">That page could not be found.</h1><p class="lead">Return home to choose communication support, find project talent or join the professional network.</p><v-btn to="/" color="primary" size="large">Return Home</v-btn></div></main></template>
+<style scoped>.not-found{display:grid;align-items:center;min-height:65vh;padding:70px 0}</style>

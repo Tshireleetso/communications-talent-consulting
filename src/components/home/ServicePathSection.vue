@@ -1,0 +1,2 @@
+<script setup lang="ts">import ServiceCard from '@/components/common/ServiceCard.vue';import SectionHeading from '@/components/common/SectionHeading.vue';import {servicePaths} from '@/data/site'</script>
+<template><section class="site-section"><div class="site-container"><SectionHeading eyebrow="Choose a service" title="Start with the outcome you need."/><div class="two-grid"><ServiceCard v-for="(service,index) in servicePaths" :key="service.title" :service="service" :index="index"/></div></div></section></template>
